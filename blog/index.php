@@ -1,5 +1,8 @@
-<?php 
+<?php     
     include_once("templates/header.php");
+
+    /** @var array $posts */
+    /** @var string $BASE_URL */
 ?>
     <main>
         <div id="title-container">
