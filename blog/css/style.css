@@ -187,20 +187,20 @@ main {
     font-weight: 300;
 }
 
-#tags-list, #categories-list {
+#tag-list, #categories-list {
     list-style: none;
 }
 
-#tags-list li, #categories-list li {
+#tag-list li, #categories-list li {
     margin-bottom: 10px;
 }
 
-#tags-list a, #categories-list a {
+#tag-list li a, #categories-list li a {
     color: #666;
     transition: .5s;
 }
 
-#tags-list a:hover, #categories-list a:hover {
+#tag-list a:hover, #categories-list a:hover {
     color: #000;
     transition: .5s;
 }
