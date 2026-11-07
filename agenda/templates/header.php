@@ -27,7 +27,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="<?= $BASE_URL ?>index.php">
-                <img src="<?=$BASE_URL?>img/logo.svg" alt="Logo da Agenda">
+                <img src="<?= $BASE_URL ?>img/logo.svg" alt="Logo da Agenda">
             </a>
             <div>
                 <div class="navbar-nav">
