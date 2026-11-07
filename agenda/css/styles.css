@@ -7,6 +7,10 @@
     margin: 15px 0 30px;
 }
 
+.form-control {
+    margin-bottom: 15px;
+}
+
 /* HOME */
 #contacts-table {
     max-width: 800px;
@@ -75,9 +79,10 @@
     font-weight: bold;
 }
 
-#back-line-container {
+#back-link-container {
     display: block;
     width: 500px;
+    max-width: 100%;
     margin: 30px auto 0;
 }
 
@@ -86,8 +91,15 @@
     color: #007bff;
     border-radius: 4px;
     padding: 5px;
+    text-decoration: none;
 }
 
 #back-link:hover {
     text-decoration: none;
+}
+
+/* CREATE */
+#create-form, #edit-form {
+    max-width: 500px;
+    margin: 0 auto;
 }
